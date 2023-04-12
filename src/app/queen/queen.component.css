@@ -1,0 +1,16 @@
+td,th{
+    border: solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: darkslategrey;
+    color: white;
+}
+
+#ultimo{
+    background-color: darkgray;
+}
