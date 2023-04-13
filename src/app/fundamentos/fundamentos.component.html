@@ -2,5 +2,6 @@
 
 <p>Interpolación: {{fundamentos}}</p>
 
-<input type="button" (click)="oneWayBinding()" value={{cadena}}>
+<!--One way binding modifica el valor de un atributo-->
+<input type="button" (click)="oneWayBinding()" [value]="cadena">
 
